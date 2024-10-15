@@ -34,10 +34,12 @@ window.onload = function() {
   let randomSuit = getRandomItem(suits);
   let randomValue = getRandomItem(values);
 
+  //update card values in htlm
   document.querySelector(".card-title-heart").innerHTML = randomSuit;
   document.querySelector(".card-text-value").innerHTML = randomValue;
   document.querySelector(".card-title-heart2").innerHTML = randomSuit;
 
+  //to change colors
   if (randomSuit === "♥" || randomSuit === "♦") {
     document.querySelector(".card-title-heart").style.color = "red";
     document.querySelector(".card-title-heart2").style.color = "red";
