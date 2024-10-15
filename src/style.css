@@ -1,6 +1,7 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
-.card-title-heart {
+.card-title-heart,
+.card-title-heart2 {
   font-size: 50px;
 }
 
@@ -8,6 +9,6 @@
   font-size: 120px;
 }
 
-.card-title-heart2 {
-  font-size: 50px;
+.card {
+  transition: all 0.3s ease-in-out; /* Smooth transition for resizing the card */
 }
