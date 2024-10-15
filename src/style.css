@@ -1,1 +1,13 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.card-title-heart {
+  font-size: 50px;
+}
+
+.card-text-value {
+  font-size: 120px;
+}
+
+.card-title-heart2 {
+  font-size: 50px;
+}
