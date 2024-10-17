@@ -6,7 +6,6 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 function generateCard() {
-  // iconos
   let suits = ["♥", "♦", "♣", "♠"];
 
   let values = [
@@ -22,19 +21,17 @@ function generateCard() {
     "10",
     "J",
     "Q",
-    "K"
+    "K",
   ];
 
-  // random item
   function getRandomItem(arr) {
     return arr[Math.floor(Math.random() * arr.length)];
   }
 
-  // random icon and alue
   let randomSuit = getRandomItem(suits);
   let randomValue = getRandomItem(values);
 
-  // Uupdate html
+  // Update html
   document.querySelector(".card-title-heart").innerHTML = randomSuit;
   document.querySelector(".card-text-value").innerHTML = randomValue;
   document.querySelector(".card-title-heart2").innerHTML = randomSuit;
